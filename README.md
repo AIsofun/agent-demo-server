@@ -19,7 +19,8 @@
 在项目根目录执行命令：
 
 ```powershell
-cd F:\code\myCode\AgentDemoForCom
+git clone https://github.com/AIsofun/agent-demo-server.git
+cd agent-demo-server
 ```
 
 ## 方式一：通过 STDIO 启动
@@ -145,3 +146,7 @@ npx -y @modelcontextprotocol/inspector uv run python main.py
 - 当前代码已经把日志写入 `mcp_server.log`，适合 STDIO 模式。
 - HTTP 模式适合演示“先启动服务，再用 Inspector 连接 URL”的流程。
 - STDIO 模式适合演示“Inspector 直接拉起 MCP Server 进程”的流程。
+
+---
+
+[返回 AIsofun 项目目录](https://github.com/AIsofun/playground)
